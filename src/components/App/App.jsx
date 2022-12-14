@@ -1,7 +1,12 @@
 import { Header } from '../header/header'
-
+import { NavBar } from '../NavBar/NavBar'
 export const App = () => {
-  return <Header />
+  return (
+    <>
+      {/* <Header /> */}
+      <NavBar />
+    </>
+  )
 }
 
 export default App
