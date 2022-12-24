@@ -1,10 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap");
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: x-large;
-  background-color: #242424;
+    font-family: "Work Sans", sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    background-color: #242424;
 }
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }

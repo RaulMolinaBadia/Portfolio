@@ -1,24 +1,24 @@
 /* Estilos del pie de página */
 .footer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: #333;
     color: #fff;
-  }
-  
-  .footer .social-links {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: medium;
+}
+
+.footer .social-links {
     display: flex;
-  }
-  
-  .footer .social-links a {
+}
+
+.footer .social-links a {
     color: #fff;
     text-decoration: none;
     padding: 0 0.5rem;
-  }
-  
-  .footer .social-links a:hover {
+}
+
+.footer .social-links a:hover {
     color: #ccc;
-  }
-  
+}

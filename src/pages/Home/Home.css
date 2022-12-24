@@ -2,25 +2,26 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 1rem;
-  }
-  
-  .home h1 {
+    height: 78vh;
+    margin: 6rem;
+}
+
+.home h1 {
     font-size: 2rem;
     margin-bottom: 0.5rem;
-  }
-  
-  .home p {
+}
+
+.home p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-  }
-  
-  .home ul {
+}
+
+.home ul {
     display: flex;
-  }
-  
-  .home li {
+}
+
+.home li {
     font-size: 1.5rem;
     margin-right: 0.5rem;
-  }
-  
+    list-style: none;
+}

@@ -6,23 +6,46 @@
     padding: 1rem;
     background-color: #333;
     color: #fff;
-  }
-  
-  .header .logo {
-    font-size: 1.5rem;
-  }
-  
-  .header .menu {
+    position: fixed;
+    width: 100%;
+}
+
+.header .logo img {
+    width: 2rem;
+}
+
+.header .menu {
     display: flex;
-  }
-  
-  .header .menu a {
+    float: right;
+    flex: 1;
+    justify-content: center ;
+}
+
+.header .menu a {
     color: #fff;
     text-decoration: none;
     padding: 1rem;
-  }
-  
-  .header .menu a:hover {
-    background-color: #444;
-  }
-  
+    transition: 0.5s all;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+.header .menu a:hover {
+    background-color: rgb(115, 199, 255);
+    color: #1B262C;
+}
+
+.header .menu .tab-highlighted{
+    background-color: rgb(115, 199, 255,0.5);
+    color: #1B262C;
+}
+.header .menu .tab-highlighted:hover{
+    color: #1B262C;
+}
