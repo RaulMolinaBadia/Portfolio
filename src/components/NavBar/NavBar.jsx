@@ -29,7 +29,7 @@ export function NavBar () {
 
   return (
     <Layout>
-      <Navbar isBordered={isDark} MaxWidth='xl' variant='sticky'>
+      <Navbar isBordered={isDark} MaxWidth='xlMax' variant='sticky'>
         <Navbar.Brand>
           <AcmeLogo />
           <Text b color='inherit' hideIn='xs'>
